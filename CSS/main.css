@@ -1,0 +1,12 @@
+
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+  }
+
+li  .fab {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 7px;
+}
