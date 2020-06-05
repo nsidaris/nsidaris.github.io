@@ -1,80 +1,170 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
+    <!-- All boostrap JS stuff: jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
+    <script
+      src="https://kit.fontawesome.com/e1cee8827f.js"
+      crossorigin="anonymous"
+    ></script>
 
-     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/e1cee8827f.js" crossorigin="anonymous"></script>
-
-    <!--For font awesome stuff-->     
-    <script src="https://kit.fontawesome.com/e1cee8827f.js" crossorigin="anonymous"></script>
-
-    <!--Google fonts and stuff-->
-    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+    <!-- Bootstrap CSS Darkly Theme-->
+    <link rel="stylesheet" href="CSS/Darklybootstrap.min.css" />
 
     <!-- My own style sheet-->
-    <link href="CSS/main.css" rel="stylesheet">
-    <title>Nick Sidaris - Software Developer</title>
+    <link href="CSS/main.css" rel="stylesheet" />
+    <title>Nick Sidaris: Software Developer</title>
   </head>
 
   <body>
-
     <!--Fixed navbar at the top-->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <!-- <a class="navbar-brand mb-0 h1" href="#">Nicholas Sidaris</a> -->
-      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target=".dual-collapse2"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
-      </button> -->
-      <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2" id="navbarCollapse">
+      </button>
+      <div
+        class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2"
+        id="navbarCollapse"
+      >
         <ul class="navbar-nav mr-auto">
-        
-          <li class="nav-item ">
+          <li class="nav-item">
             <a class="nav-link" href="#">About Me</a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item">
             <a class="nav-link" href="#">Projects</a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item">
             <a class="nav-link" href="#">Experience</a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="#" >Resume</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resume</a>
           </li>
         </ul>
       </div>
 
-    <div class="mx-auto order-0">
-        <a class="navbar-brand mx-auto font-weight-bold" style="font-size: 17pt;" href="#">Nick Sidaris - Software Developer</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
+      <div class="mx-auto order-0">
+        <a
+          class="navbar-brand mx-auto font-weight-bold"
+          style="font-size: 17pt;"
+          href="#"
+          >Nick Sidaris - Software Developer</a
+        >
+      </div>
 
-    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <span class="navbar-brand mb-0 h4">Connect with me:</span>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link fab fa-linkedin" href="https://www.linkedin.com/in/nsidaris"></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link fab fa-github-square" href="https://github.com/nsidaris"></a>
-        </li>
-      </ul>
-
-    </div>
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <span class="navbar-brand mb-0 h4">Connect with me:</span>
+          </li>
+          <li class="nav-item active">
+            <a
+              class="nav-link fab fa-linkedin"
+              href="https://www.linkedin.com/in/nsidaris"
+            ></a>
+          </li>
+          <li class="nav-item active">
+            <a
+              class="nav-link fab fa-github-square"
+              href="https://github.com/nsidaris"
+            ></a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    
-   
+
+    <div class="imgbox">
+      <img class="cover-image" src="/Images/CodeBackground.jpg" />
+      <!--The text for the banner -->
+      <div class="container centered">
+        <h1 class="font-weight-bolder">Nick Sidaris</h1>
+        <div class="row">
+          <div class="col-lg-12"></div>
+        </div>
+
+        <h4><i class="fas fa-briefcase"></i> Software Developer</h4>
+        <h4>
+          <i class="fas fa-map-marker-alt"></i> South Orange County, California
+        </h4>
+
+        <h4>
+          <i class="fas fa-graduation-cap"></i> B.S. in Computer Science,
+          University of California, Irvine
+        </h4>
+        <a href="#" class="btn btn-primary btn-lg"
+          ><i class="fab fa-google-drive"></i> View Resume</a
+        >
+      </div>
+    </div>
+
+    <div class="container">
+      <h1>Experience</h1>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card mb-6 bg-secondary text-white">
+            <div class="card-body">
+              <h3 class="card-title">
+                Software Development Intern | BeyondTrust
+              </h3>
+              <h6 class="card-subtitle text-white">
+                (C#, .NetCore, ASP.NetCore, MS SQL Server, TFS )
+              </h6>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Long term internship developing and maintaining internal data
+                management software to support BeyondTrust's Vulnerability
+                Management Suite.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                Refactored a release process using more modern libraries and
+                increased processing speed up to 40%
+              </li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body bg-secondary">
+              <a
+                href="https://www.beyondtrust.com/"
+                target="_blank"
+                class="card-link"
+                >beyondtrust.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

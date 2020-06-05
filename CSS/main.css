@@ -1,11 +1,38 @@
-
 body {
-    min-height: 75rem;
-    padding-top: 4.5rem;
-  }
+  min-height: 75rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 
-li  .fab {
-    font-size: 30px;
-    text-align: center;
-    text-decoration: none;
+li .fab {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.imgbox {
+  display: grid;
+  height: 50%;
+  position: relative;
+  text-align: center;
+}
+.cover-image {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100% !important;
+  height: 60vh;
+  margin: auto;
+  object-fit: cover;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
