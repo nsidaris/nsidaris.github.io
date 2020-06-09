@@ -10,16 +10,32 @@ li .fab {
   text-decoration: none;
 }
 
+.banner-icon-link {
+  display: inline;
+  font-size: 35px;
+
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.banner-icon-link:hover {
+  color: grey;
+  text-decoration: none;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
+
 .imgbox {
   display: grid;
   height: 50%;
   position: relative;
   text-align: center;
 }
+
 .cover-image {
   max-width: 100%;
   max-height: 100%;
@@ -27,6 +43,7 @@ li .fab {
   height: 60vh;
   margin: auto;
   object-fit: cover;
+  min-height: 360px;
 }
 
 /* Centered text */
