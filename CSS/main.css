@@ -13,7 +13,6 @@ li .fab {
 .banner-icon-link {
   display: inline;
   font-size: 35px;
-
   color: white;
   padding-left: 10px;
   padding-right: 10px;
@@ -40,7 +39,7 @@ li .fab {
   max-width: 100%;
   max-height: 100%;
   width: 100% !important;
-  height: 60vh;
+  height: 50vh;
   margin: auto;
   object-fit: cover;
   min-height: 360px;
@@ -52,4 +51,8 @@ li .fab {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.navy-blue {
+  background-color: rgb(11, 40, 66) !important;
 }
