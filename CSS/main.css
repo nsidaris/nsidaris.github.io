@@ -40,7 +40,7 @@ li .fab {
   max-width: 100%;
   max-height: 100%;
   width: 100% !important;
-  height: 50vh;
+  height: 60vh;
   margin: auto;
   object-fit: cover;
   min-height: 360px;
@@ -56,4 +56,9 @@ li .fab {
 
 .navy-blue {
   background-color: rgb(11, 40, 66) !important;
+}
+
+.info-card-col {
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
