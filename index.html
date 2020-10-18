@@ -36,7 +36,8 @@
   <body>
     <!--Fixed navbar at the top-->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <button
+      <div class="container">
+        <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -44,14 +45,11 @@
         aria-controls="navbarCollapse"
         aria-expanded="false"
         aria-label="Toggle navigation"
-      >
+        >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
-          </li> -->
+        <ul class="navbar-nav justify-content-left">
           <li class="nav-item">
             <a class="nav-link" href="#Experience">Experience</a>
           </li>
@@ -60,23 +58,25 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#Skills">Skills</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="mailto:nsidaris@yahoo.com">Send Email</a>
-              <a class="dropdown-item" href="https://www.linkedin.com/in/nsidaris" target="_blank">Connect on LinkedIn </a>
-              <a class="dropdown-item" href="https://github.com/nsidaris" target="_blank">Follow on Github </a>
-            </div>
-          </li>
-        </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="mailto:nsidaris@yahoo.com">Send Email</a>
+                <a class="dropdown-item" href="https://www.linkedin.com/in/nsidaris" target="_blank">Connect on LinkedIn </a>
+                <a class="dropdown-item" href="https://github.com/nsidaris" target="_blank">Follow on Github </a>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
+
     </nav>
 
     <!--Image banner-->
     <div class="imgbox">
       <!--Code background-->
-      <img class="cover-image" src="/Images/CodeBackGround.jpg" />
+      <img id="cover-image" src="/Images/CodeBackGround.jpg" />
       <!--The text for the banner -->
       <div class="container centered">
         <h1 class="font-weight-bolder">Nick Sidaris</h1>
